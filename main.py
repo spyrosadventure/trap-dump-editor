@@ -152,6 +152,5 @@ def user_input_and_update(file_path):
     new_villain_id = int(input("Enter new villain ID (1-46): "))
     update_villain_id(file_path, villain_index, new_villain_id)
 
-print("use decrypt.py to decrypt your skylander dump.")
 file_path = input("Enter the path to the decrypted dump. (drag and drop the file here): ")
 user_input_and_update(file_path)
